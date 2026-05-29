@@ -35,7 +35,7 @@ WebSettingsCompat.setWebAuthenticationSupport(settings, WebSettingsCompat.WEB_AU
    ```
 
    3. **Host assetlinks.json:**
-   To prove your website trusts your app, create an assetlinks.json file and host it at https://your-domain.com/.well-known/assetlinks.json.
+   To prove your website trusts your app, create an assetlinks.json file and host it at https://mconnect.maybank.com/.well-known/assetlinks.json.
 
    ```
    [
