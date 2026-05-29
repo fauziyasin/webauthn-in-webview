@@ -46,14 +46,14 @@ WebSettingsCompat.setWebAuthenticationSupport(settings, WebSettingsCompat.WEB_AU
        ],
        "target": {
          "namespace": "web",
-         "site": "YOUR_WEBSITE_HERE"
+         "site": "mconnect.maybank.com"
        }
      }
      {
        "relation": ["delegate_permission/common.get_login_creds"],
        "target": {
-         "namespace": "android_app",
-         "package_name": "com.your.app.package_name",
+         "namespace": "maybank2e",
+         "package_name": "com.maybank.app.fauziyasin",
          "sha256_cert_fingerprints": ["YOUR_SHA256_FINGERPRINT_HERE"]
        }
      }
